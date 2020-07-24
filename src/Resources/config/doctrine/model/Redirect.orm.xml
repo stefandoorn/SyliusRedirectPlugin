@@ -15,7 +15,7 @@
             <index columns="enabled"/>
             <index columns="only_404"/>
             <index name="findOneEnabledBySource_idx" columns="source,enabled"/>
-            <index name="findOne404EnabledBySource_idx" columns="source,enabled,only404"/>
+            <index name="findOne404EnabledBySource_idx" columns="source,enabled,only_404"/>
         </indexes>
 
         <field name="source" type="string"/>
